@@ -1,0 +1,69 @@
+{
+  "telemetry.enableTelemetry": false,
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 2,
+  "workbench.colorTheme": "Atom One Dark",
+
+  "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "explorer.confirmDelete": false,
+  "workbench.quickOpen.closeOnFocusLost": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "newUntitledFile",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "editor.formatOnSave": true,
+
+  "editor.fontSize": 18,
+  // "editor.fontLigatures": true,
+  "editor.fontFamily": "Operator Mono Medium",
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic
+          "comment",
+          // "entity.name.type.class", //class names
+          "entity.other", //className, onClick...
+          // "keyword", //import, export, return…
+          // "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js" //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.associations": {
+    "components": "React-components",
+    "store": "Redux-store",
+    "reducers": "Redux-reducer",
+    "actions": "Redux-actions"
+  },
+  "material-icon-theme.files.associations": {
+    "store.js": "Redux-store"
+  }
+}
