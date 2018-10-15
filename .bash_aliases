@@ -72,7 +72,7 @@ alias nrs='npm run s'
 alias npm_purge='find . -type d -name node_modules -exec rm -rf {} +'
 
 ##heroku
-alias herokures='heroku restart; heroku pg:reset DATABASE --confirm treat-pal; heroku run rails db:migrate; heroku run rails db:seed'
+alias herokures='heroku restart && heroku pg:reset DATABASE --confirm treat-pal && heroku run rails db:migrate && heroku run rails db:seed'
 alias hpg='heroku pg:psql'
 
 ##mongoDB
