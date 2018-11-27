@@ -65,5 +65,6 @@
   },
   "material-icon-theme.files.associations": {
     "store.js": "Redux-store"
-  }
+  },
+  "window.titleBarStyle": "custom"
 }

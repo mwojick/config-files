@@ -185,3 +185,12 @@ Scripts/
 core
 examples.desktop
 pia.sh
+.config/Code/User/settings.json
+.config/Slack/
+.config/bluedevil.notifyrc
+.config/bluedevilreceiverrc
+.config/kglobalshortcutsrc.Lh2310
+.config/kioclientrc
+.bash_aliases
+.config/Code/User/settings.json
+.gitignore

@@ -42,6 +42,8 @@ alias gp='git push'
 alias ga='git add .'
 alias gr='git reset'
 alias gb='git branch'
+#ignore all untracked files
+alias giu='git status -s | grep -e "^\?\?" | cut -c 4- >> .gitignore'
 
 alias gm='git merge'
 
