@@ -1,0 +1,11 @@
+[user]
+	email = 35327565+mwojick@users.noreply.github.com
+	name = mwojick
+[push]
+	default = simple
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout=72000
+[core]
+	editor = code --wait

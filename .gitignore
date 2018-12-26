@@ -136,7 +136,6 @@
 .gconf/
 .gem/
 .gimp-2.8/
-.gitconfig
 .gnome/
 .gnupg/
 .gtkrc-2.0
@@ -191,6 +190,5 @@ pia.sh
 .config/bluedevilreceiverrc
 .config/kglobalshortcutsrc.Lh2310
 .config/kioclientrc
-.bash_aliases
-.config/Code/User/settings.json
-.gitignore
+.config/zoomus.conf
+.zoom/
