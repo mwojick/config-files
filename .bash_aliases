@@ -1,6 +1,6 @@
 ### Custom aliases
 
-alias ba='subl ~/.bash_aliases'
+alias ba='code ~/.bash_aliases'
 alias open='xdg-open'
 alias bas='source ~/.bashrc'
 

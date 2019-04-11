@@ -192,3 +192,9 @@ pia.sh
 .config/kioclientrc
 .config/zoomus.conf
 .zoom/
+.bash_aliases
+.config/Code/User/settings.json
+.config/Code/Network Persistent State
+.config/Code/User/globalStorage/
+.config/Code/rapid_render.json
+.config/privateinternetaccess/
