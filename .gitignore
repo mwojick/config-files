@@ -198,3 +198,5 @@ pia.sh
 .config/Code/User/globalStorage/
 .config/Code/rapid_render.json
 .config/privateinternetaccess/
+extensions.list
+snap/

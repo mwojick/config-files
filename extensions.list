@@ -1,4 +1,3 @@
-code --install-extension akamud.vscode-theme-onedark
 code --install-extension asvetliakov.snapshot-tools
 code --install-extension clinyong.vscode-css-modules
 code --install-extension DavidAnson.vscode-markdownlint
@@ -6,6 +5,10 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.code-runner
+code --install-extension GrapeCity.gc-excelviewer
+code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension mbessey.vscode-rufo
 code --install-extension midnightsyntax.vscode-wrap-console-log
 code --install-extension mikestead.dotenv
 code --install-extension ms-python.python
@@ -15,3 +18,4 @@ code --install-extension PKief.material-icon-theme
 code --install-extension rebornix.ruby
 code --install-extension torn4dom4n.latex-support
 code --install-extension wix.vscode-import-cost
+code --install-extension zhuangtongfa.Material-theme
