@@ -1,10 +1,9 @@
 {
   "telemetry.enableTelemetry": false,
   "editor.wordWrap": "on",
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "workbench.colorTheme": "One Dark Pro",
-
-  "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace",
+  // "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace",
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "explorer.confirmDelete": false,
@@ -15,13 +14,11 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "workbench.editor.tabSizing": "shrink",
   "workbench.startupEditor": "newUntitledFile",
-  "latex-workshop.view.pdf.viewer": "tab",
+  // "latex-workshop.view.pdf.viewer": "tab",
   "editor.formatOnSave": true,
-
   "editor.fontSize": 18,
   // "editor.fontLigatures": true,
   "editor.fontFamily": "Operator Mono Medium",
-
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -67,5 +64,6 @@
     "store.js": "Redux-store"
   },
   "window.titleBarStyle": "custom",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "breadcrumbs.enabled": false
 }
